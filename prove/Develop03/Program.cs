@@ -1,3 +1,5 @@
+// I added a functionality to choose scripture randomly
+
 using System;
 
 class Program
