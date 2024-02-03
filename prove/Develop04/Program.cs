@@ -38,14 +38,14 @@ class Program
             {
                 reflect.Run();
                 reflectingActivityLog++;
-                Console.WriteLine($"You have performed Breathing Activity for {reflectingActivityLog} times.");
+                Console.WriteLine($"You have performed Reflecting Activity for {reflectingActivityLog} times.");
                 activity.ShowSpinner(5);
             }
             else if (option == "3")
             {
                 list.Run();
                 listingActivityLog++;
-                Console.WriteLine($"You have performed Breathing Activity for {listingActivityLog} times.");
+                Console.WriteLine($"You have performed Listing Activity for {listingActivityLog} times.");
                 activity.ShowSpinner(5);
             }
 
