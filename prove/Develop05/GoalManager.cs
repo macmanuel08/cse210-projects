@@ -143,10 +143,15 @@ public class GoalManager
         
         earned += int.Parse(goal.GetPoints());
 
+        ConsoleColor previousColor = Console.ForegroundColor; // save the default color
+        Console.ForegroundColor = ConsoleColor.Blue; // Print text in blue
+
         Console.WriteLine($"Congratulations! You earned {earned} points!");
         _score += earned;
 
         Console.WriteLine($"You now have {_score} points.");
+
+        Console.ForegroundColor = previousColor; // Set the text color in the defualt color
     }
 
     private void SaveGoals()
